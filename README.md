@@ -44,7 +44,7 @@ Sets the gap between children on the primary layout axis. Does not work with `Ju
 Same as `Layout` sizing, see above.
 
 ## Installation
-uLayout can be installed from the a `.unitypackage` file. Download the latest release from the Releases tab.
+uLayout can be installed from a `.unitypackage` file. Download the latest release from the Releases tab.
 
 ---
 
