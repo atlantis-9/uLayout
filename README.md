@@ -41,7 +41,11 @@ Sets the gap between children on the primary layout axis. Does not work with `Ju
 
 ### LayoutText
 - **Sizing X, Sizing Y** - `SizingMode`\
-Same as `Layout` sizing, see above.
+Same as `Layout` sizing, see above ^^^
+- **Max Width** - `float`\
+The maximum width the rect will grow when using a `SizingMode` of "**Inherit**" or "**FitContent**"
+- **Max Font Size** - `float`\
+The maximum size the text will grow when the `TMP_Text`'s "**Auto Size**" option is enabled (when disabled, this option has no effect)
 
 ## Installation
 uLayout can be installed from a `.unitypackage` file. Download the latest release from the Releases tab.
@@ -52,4 +56,5 @@ uLayout can be installed from a `.unitypackage` file. Download the latest releas
 - Console reports missing references on import - simply enter Play Mode once and it should fix itself (also you need the TextMeshPro assets)
 - "**Inherit**" `SizingMode` doesn't take parent padding into account
 - `SizingMode` does not include an equivalent for `flex-grow` CSS rule
+- No `flex-wrap` equivalent
 
