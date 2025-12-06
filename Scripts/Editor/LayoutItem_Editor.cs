@@ -3,7 +3,10 @@ using UnityEngine;
 
 namespace Poke.UI
 {
-    [CustomEditor(typeof(LayoutItem))]
+    [
+        CustomEditor(typeof(LayoutItem)),
+        CanEditMultipleObjects
+    ]
     public class LayoutItem_Editor : Editor
     {
         private SerializedProperty _ignoreLayout;
