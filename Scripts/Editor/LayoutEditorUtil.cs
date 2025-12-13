@@ -37,7 +37,9 @@ namespace Poke.UI
             GameObjectUtility.SetParentAndAlign(g, command.context as GameObject);
             
             g.AddComponent<RectTransform>();
-            g.AddComponent<TextMeshProUGUI>().text = "New Text";
+            TextMeshProUGUI t = g.AddComponent<TextMeshProUGUI>();
+            t.text = "New Text";
+            t.alignment = TextAlignmentOptions.Capline;
             g.AddComponent<LayoutText>();
             
             Undo.RegisterCreatedObjectUndo(g, "Create " + g.name);
