@@ -43,9 +43,6 @@ uLayout also supports TextMeshPro `TMP_Text` objects, using the `LayoutText` com
 - **Size Mode**: Sets the rect sizing mode for each axis. "**FitContent**" has no effect (use derived classes below)
   - **x** (`SizingMode`)
   - **y** (`SizingMode`)
-- **Offset** (`Vector2`): offsets the rect from its calculated layout position (WIP)
-- **Rotation** (`float`): rotates the rect around its anchor point (WIP)
-- **Scale**: scales the rect from its anchor point (WIP)
 
 ### Layout (&larr; `LayoutItem`)
 - **Padding**: Set a buffer width between each edge and the layout contents
