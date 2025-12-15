@@ -16,5 +16,12 @@
   "author": "pokeblokdude",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Layout Demo",
+      "description": "Contains a *very* basic demo of what is possible using uLayout",
+      "path": "Samples/LayoutDemo"
+    }
+  ]
 }
