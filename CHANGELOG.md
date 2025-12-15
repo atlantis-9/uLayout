@@ -1,7 +1,14 @@
-﻿## [1.3.1] - 2025-12-15
+﻿## [1.3.2] - 2025-12-15
+
+### Fixed
+- fixed Editor asmdef
+
+## [1.3.1] - 2025-12-15
+
+### Fixed
+- fixed UPM sample import
 
 ### Changed
-- fixed UPM sample import
 - asmdef changes
 
 ## [1.3] - 2025-12-15
