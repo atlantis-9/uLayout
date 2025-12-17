@@ -1,7 +1,5 @@
 ﻿## [1.4.0] - 2025-12-16
 
-
-
 ### Changed
 - HUGE (7-8x) performance improvements
   - demo scene went from ~21ms &rarr; 3.5ms (in editor) on my machine
